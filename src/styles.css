@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+
+    .my-color {
+      color: rgba(167, 172, 94, 1);
+    }
+}

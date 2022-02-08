@@ -468,8 +468,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
+.m-14 {
+  margin: 3.5rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-11 {
+  margin-left: 2.75rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
 }
 
 .flex {
@@ -480,24 +496,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-2 {
-  height: 0.5rem;
+.h-\[200px\] {
+  height: 200px;
 }
 
-.h-\[276px\] {
-  height: 276px;
+.h-\[35px\] {
+  height: 35px;
 }
 
 .w-full {
   width: 100%;
 }
 
-.w-\[276px\] {
-  width: 276px;
+.w-\[200px\] {
+  width: 200px;
 }
 
-.flex-grow {
-  flex-grow: 1;
+.w-\[35px\] {
+  width: 35px;
 }
 
 .flex-row {
@@ -508,61 +524,50 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
-.items-center {
-  align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-between {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
+.gap-6 {
+  gap: 1.5rem;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
+.bg-\[url\(\'\/what_a_rush\.png\'\)\] {
+  background-image: url('/what_a_rush.png');
+}
+
+.bg-\[url\(\'\.\/img\/bg-site\.jpg\'\)\] {
+  background-image: url('./img/bg-site.jpg');
 }
 
 .bg-cover {
   background-size: cover;
 }
 
-.bg-fixed {
-  background-attachment: fixed;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-repeat {
-  background-repeat: repeat;
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
 
-.text-center {
-  text-align: center;
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .text-3xl {
@@ -570,9 +575,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-white {
@@ -584,3 +589,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0.5;
 }
 
+.my-color {
+  color: rgba(167, 172, 94, 1);
+}
