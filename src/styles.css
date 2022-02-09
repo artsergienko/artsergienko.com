@@ -4,10 +4,10 @@
 
 @layer utilities {
 
-    .my-color {
+    .a-color {
       color: rgba(167, 172, 94, 1);
     }
-    .my-color-bg {
+    .a-color-bg {
       background-color: rgba(48, 57, 32, 1);
     }
 }
