@@ -468,22 +468,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.m-14 {
-  margin: 3.5rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-11 {
-  margin-left: 2.75rem;
-}
-
-.ml-16 {
-  margin-left: 4rem;
-}
-
 .ml-20 {
   margin-left: 5rem;
 }
@@ -500,20 +484,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 200px;
 }
 
-.h-\[35px\] {
-  height: 35px;
-}
-
 .w-full {
   width: 100%;
 }
 
 .w-\[200px\] {
   width: 200px;
-}
-
-.w-\[35px\] {
-  width: 35px;
 }
 
 .flex-row {
@@ -532,20 +508,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.5rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
-}
-
-.bg-\[url\(\'\/what_a_rush\.png\'\)\] {
-  background-image: url('/what_a_rush.png');
 }
 
 .bg-\[url\(\'\.\/img\/bg-site\.jpg\'\)\] {
@@ -558,11 +522,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.py-11 {
-  padding-top: 2.75rem;
-  padding-bottom: 2.75rem;
 }
 
 .py-20 {
@@ -591,4 +550,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .my-color {
   color: rgba(167, 172, 94, 1);
+}
+
+.my-color-bg {
+  background-color: rgba(48, 57, 32, 1);
 }
