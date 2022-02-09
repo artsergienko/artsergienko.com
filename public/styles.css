@@ -476,16 +476,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-\[35px\] {
-  height: 35px;
-}
-
 .w-full {
   width: 100%;
 }
 
 .w-\[130px\] {
   width: 130px;
+}
+
+.w-\[140px\] {
+  width: 140px;
 }
 
 .flex-row {
@@ -520,6 +520,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('./img/bg-phone.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/bg-site\.jpg\'\)\] {
+  background-image: url('./img/bg-site.jpg');
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -534,41 +538,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 2.5rem;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .pb-4 {
   padding-bottom: 1rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-xl {
@@ -593,21 +582,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgba(48, 57, 32, 1);
 }
 
+@media (min-width: 640px) {
+  .sm\:bg-\[url\(\'\.\/img\/bg-site\.jpg\'\)\] {
+    background-image: url('./img/bg-site.jpg');
+  }
+
+  .sm\:bg-cover {
+    background-size: cover;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:ml-20 {
     margin-left: 5rem;
   }
 
-  .md\:h-\[35px\] {
-    height: 35px;
-  }
-
   .md\:w-\[200px\] {
     width: 200px;
-  }
-
-  .md\:w-\[35px\] {
-    width: 35px;
   }
 
   .md\:items-start {
@@ -631,13 +622,23 @@ Ensure the default browser behavior of the `hidden` attribute.
     text-align: left;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:bg-\[url\(\'\.\/img\/bg-site\.jpg\'\)\] {
+    background-image: url('./img/bg-site.jpg');
+  }
+
+  .lg\:bg-cover {
+    background-size: cover;
   }
 }
