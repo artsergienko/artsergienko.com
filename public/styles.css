@@ -472,24 +472,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-\[140px\] {
-  width: 140px;
+.w-\[160px\] {
+  width: 160px;
 }
 
 .flex-row {
@@ -512,20 +500,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .rounded-full {
@@ -540,29 +516,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-repeat: no-repeat;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.p-8 {
+  padding: 2rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
 }
 
 .px-14 {
@@ -616,10 +584,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
-  .md\:ml-20 {
-    margin-left: 5rem;
-  }
-
   .md\:ml-16 {
     margin-left: 4rem;
   }
@@ -630,16 +594,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:items-start {
     align-items: flex-start;
-  }
-
-  .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  .md\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
   }
 
   .md\:py-16 {
