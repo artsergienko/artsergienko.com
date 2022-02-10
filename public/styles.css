@@ -496,6 +496,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -524,11 +528,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .py-3 {
