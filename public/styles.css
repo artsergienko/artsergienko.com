@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.0.18 | MIT License | https://tailwindcss.com
+! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -512,6 +512,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 57 32 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\/img\/bg-phone\.jpg\'\)\] {
   background-image: url('./img/bg-phone.jpg');
 }
@@ -549,6 +554,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(167 172 94 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -556,14 +566,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .opacity-50 {
   opacity: 0.5;
-}
-
-.a-color {
-  color: rgba(167, 172, 94, 1);
-}
-
-.a-color-bg {
-  background-color: rgba(48, 57, 32, 1);
 }
 
 @media (min-width: 640px) {
