@@ -1,5 +1,6 @@
 {
   "name": "artsergienko.dev",
+  "description": "My personal site",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,18 +8,17 @@
     "build": "tailwindcss build -i ./src/styles.css -o ./public/styles.css"
   },
   "keywords": [],
-  "author": "",
+  "author": "Artem Sergienko",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.0.23"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artemsergienko/artsergienko.dev.git"
+    "url": "git+https://github.com/artsergienko/artsergienko.dev.git"
   },
   "bugs": {
-    "url": "https://github.com/artemsergienko/artsergienko.dev/issues"
+    "url": "https://github.com/artsergienko/artsergienko.dev/issues"
   },
-  "homepage": "https://github.com/artemsergienko/artsergienko.dev#readme",
-  "description": ""
+  "homepage": "https://github.com/artsergienko/artsergienko.dev#readme"
 }
